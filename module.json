@@ -1,0 +1,334 @@
+{
+  "id": "flatstream-share",
+  "title": "평면 자료 공유",
+  "description": "평면 자료 공유",
+  "authors": [
+    {
+      "name": "luunstream"
+    },
+    {
+      "name": "luunstream"
+    }
+  ],
+  "version": "#{VERSION}#",
+  "compatibility": {
+    "minimum": "10",
+    "verified": "13"
+  },
+  "packs": [
+    {
+      "name": "adventures",
+      "system": "dnd5e",
+      "label": "어드벤쳐 (MySC)",
+      "path": "./packs/adventures.db",
+      "module": "flatstream-share",
+      "type": "Adventure"
+    },
+    {
+      "name": "summon",
+      "system": "dnd5e",
+      "label": "소환물 (MySC)",
+      "path": "./packs/summon.db",
+      "module": "flatstream-share",
+      "type": "Actor"
+    },
+    {
+      "name": "monster14",
+      "system": "dnd5e",
+      "label": "몬스터 14 (MySC)",
+      "path": "./packs/monster14.db",
+      "module": "flatstream-share",
+      "type": "Actor"
+    },
+    {
+      "name": "monster24",
+      "system": "dnd5e",
+      "label": "몬스터 24 (MySC)",
+      "path": "./packs/monster24.db",
+      "module": "flatstream-share",
+      "type": "Actor"
+    },
+    {
+      "name": "items",
+      "system": "dnd5e",
+      "label": "아이템 (MySC)",
+      "path": "./packs/items.db",
+      "module": "flatstream-share",
+      "type": "Item"
+    },
+    {
+      "name": "spells",
+      "system": "dnd5e",
+      "label": "주문 14 (MySC)",
+      "path": "./packs/spells.db",
+      "module": "flatstream-share",
+      "type": "Item"
+    },
+    {
+      "name": "spells_2024",
+      "system": "dnd5e",
+      "label": "주문 24 (MySC)",
+      "path": "./packs/spells_2024.db",
+      "module": "flatstream-share",
+      "type": "Item"
+    },
+    {
+      "name": "spells_supplement",
+      "system": "dnd5e",
+      "label": "주문:서플 (MySC)",
+      "path": "./packs/spells_supplement.db",
+      "module": "flatstream-share",
+      "type": "Item"
+    },
+    {
+      "name": "classes14",
+      "system": "dnd5e",
+      "label": "클래스 14 (MySC)",
+      "path": "./packs/classes14.db",
+      "module": "flatstream-share",
+      "type": "Item"
+    },
+    {
+      "name": "classes24",
+      "system": "dnd5e",
+      "label": "클래스 24(MySC)",
+      "path": "./packs/classes24.db",
+      "module": "flatstream-share",
+      "type": "Item"
+    },
+    {
+      "name": "subclasses14",
+      "system": "dnd5e",
+      "label": "서브클래스 14 (MySC)",
+      "path": "./packs/subclasses14.db",
+      "module": "flatstream-share",
+      "type": "Item"
+    },
+    {
+      "name": "subclasses24",
+      "system": "dnd5e",
+      "label": "서브클래스 24 (MySC)",
+      "path": "./packs/subclasses24.db",
+      "module": "flatstream-share",
+      "type": "Item"
+    },
+    {
+      "name": "class_features14",
+      "system": "dnd5e",
+      "label": "클래스 특성 14 (MySC)",
+      "path": "./packs/class_features14.db",
+      "module": "flatstream-share",
+      "type": "Item"
+    },
+    {
+      "name": "class_features24",
+      "system": "dnd5e",
+      "label": "클래스 특성 24 (MySC)",
+      "path": "./packs/class_features24.db",
+      "module": "flatstream-share",
+      "type": "Item"
+    },
+    {
+      "name": "subclass_features14",
+      "system": "dnd5e",
+      "label": "서브클래스 특성 14 (MySC)",
+      "path": "./packs/subclass_features14.db",
+      "module": "flatstream-share",
+      "type": "Item"
+    },
+    {
+      "name": "subclass_features24",
+      "system": "dnd5e",
+      "label": "서브클래스 특성 24 (MySC)",
+      "path": "./packs/subclass_features24.db",
+      "module": "flatstream-share",
+      "type": "Item"
+    },
+    {
+      "name": "backgrounds14",
+      "system": "dnd5e",
+      "label": "배경 14 (MySC)",
+      "path": "./packs/backgrounds14.db",
+      "module": "flatstream-share",
+      "type": "Item"
+    },
+    {
+      "name": "backgrounds24",
+      "system": "dnd5e",
+      "label": "배경 24 (MySC)",
+      "path": "./packs/backgrounds24.db",
+      "module": "flatstream-share",
+      "type": "Item"
+    },
+    {
+      "name": "races14",
+      "system": "dnd5e",
+      "label": "종족 14 (MySC)",
+      "path": "./packs/races14.db",
+      "module": "flatstream-share",
+      "type": "Item"
+    },
+    {
+      "name": "races24",
+      "system": "dnd5e",
+      "label": "종족 24(MySC)",
+      "path": "./packs/races24.db",
+      "module": "flatstream-share",
+      "type": "Item"
+    },
+    {
+      "name": "races_features14",
+      "system": "dnd5e",
+      "label": "종족 특성 14 (MySC)",
+      "path": "./packs/races_features14.db",
+      "module": "flatstream-share",
+      "type": "Item"
+    },
+    {
+      "name": "races_features24",
+      "system": "dnd5e",
+      "label": "종족 특성 24 (MySC)",
+      "path": "./packs/races_features24.db",
+      "module": "flatstream-share",
+      "type": "Item"
+    },
+    {
+      "name": "feats14",
+      "system": "dnd5e",
+      "label": "재주 14(MySC)",
+      "path": "./packs/feats14.db",
+      "module": "flatstream-share",
+      "type": "Item"
+    },
+    {
+      "name": "feats24",
+      "system": "dnd5e",
+      "label": "재주 24 (MySC)",
+      "path": "./packs/feats24.db",
+      "module": "flatstream-share",
+      "type": "Item"
+    },
+    {
+      "name": "scenes",
+      "system": "dnd5e",
+      "label": "장면 (MySC)",
+      "path": "./packs/scenes.db",
+      "module": "flatstream-share",
+      "type": "Scene"
+    },
+    {
+      "name": "JournalEntries",
+      "system": "dnd5e",
+      "label": "저널 (MySC)",
+      "path": "./packs/journalentry.db",
+      "module": "flatstream-share",
+      "type": "JournalEntry"
+    },
+    {
+      "name": "macros",
+      "system": "dnd5e",
+      "label": "매크로 (MySC)",
+      "path": "./packs/macro.db",
+      "module": "flatstream-share",
+      "type": "Macro"
+    },
+    {
+      "name": "rolltables",
+      "system": "dnd5e",
+      "label": "굴림표 (MySC)",
+      "path": "./packs/rolltables.db",
+      "module": "flatstream-share",
+      "type": "RollTable"
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "월드 공유폴더",
+      "sorting": "a",
+      "folders": [
+        {
+          "name": "캐릭터 특성 2014",
+          "sorting": "a",
+          "packs": [
+            "backgrounds14",
+            "class_features14",
+            "classes14",
+            "feats14",
+            "races_features14",
+            "races14",
+            "subclass_features14",
+            "subclasses14"
+          ],
+          "color": null,
+          "folders": []
+        },
+        {
+          "name": "캐릭터 특성 2024",
+          "sorting": "a",
+          "packs": [
+            "backgrounds24",
+            "class_features24",
+            "classes24",
+            "feats24",
+            "races_features24",
+            "races24",
+            "subclass_features24",
+            "subclasses24"
+          ],
+          "color": null,
+          "folders": []
+        },
+        {
+          "name": "주문",
+          "sorting": "a",
+          "packs": [
+            "spells",
+            "spells_2024",
+            "spells_supplement"
+          ],
+          "color": null,
+          "folders": []
+        },
+        {
+          "name": "아이템",
+          "sorting": "a",
+          "packs": [
+            "items"
+          ],
+          "color": null,
+          "folders": []
+        },
+        {
+          "name": "액터",
+          "sorting": "a",
+          "packs": [
+            "summon",
+            "monster14",
+            "monster24"
+          ],
+          "color": null,
+          "folders": []
+        },
+        {
+          "name": "세팅",
+          "sorting": "a",
+          "packs": [
+            "adventures",
+            "journalentry",
+            "rolltables",
+            "scenes"
+          ],
+          "color": null,
+          "folders": []
+        }
+      ],
+      "color": null,
+      "packs": []
+    }
+  ],
+	"license": "LICENSE",
+  	"readme": "README.md",
+	"url": "#{URL}#",
+	"manifest": "#{MANIFEST}#",
+	"download": "#{DOWNLOAD}#"
+}
