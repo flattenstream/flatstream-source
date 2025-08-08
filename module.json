@@ -19,226 +19,374 @@
     {
       "name": "adventures",
       "system": "dnd5e",
-      "label": "어드벤쳐 (MySC)",
+      "label": "어드벤쳐 (FSS)",
       "path": "./packs/adventures.db",
       "module": "flatstream-share",
-      "type": "Adventure"
+      "type": "Adventure",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "actors",
+      "system": "dnd5e",
+      "label": "액터 (FSS)",
+      "path": "./packs/actors.db",
+      "module": "flatstream-share",
+      "type": "Actor",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
       "name": "summon",
       "system": "dnd5e",
-      "label": "소환물 (MySC)",
+      "label": "소환물 (FSS)",
       "path": "./packs/summon.db",
       "module": "flatstream-share",
-      "type": "Actor"
+      "type": "Actor",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
       "name": "monster14",
       "system": "dnd5e",
-      "label": "몬스터 14 (MySC)",
+      "label": "몬스터 14 (FSS)",
       "path": "./packs/monster14.db",
       "module": "flatstream-share",
-      "type": "Actor"
+      "type": "Actor",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
       "name": "monster24",
       "system": "dnd5e",
-      "label": "몬스터 24 (MySC)",
+      "label": "몬스터 24 (FSS)",
       "path": "./packs/monster24.db",
       "module": "flatstream-share",
-      "type": "Actor"
+      "type": "Actor",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
       "name": "items",
       "system": "dnd5e",
-      "label": "아이템 (MySC)",
+      "label": "아이템 (FSS)",
       "path": "./packs/items.db",
       "module": "flatstream-share",
-      "type": "Item"
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "spells_other",
+      "system": "dnd5e",
+      "label": "기타 주문 (FSS)",
+      "path": "./packs/spells_other.db",
+      "module": "flatstream-share",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
       "name": "spells",
       "system": "dnd5e",
-      "label": "주문 14 (MySC)",
+      "label": "주문 14 (FSS)",
       "path": "./packs/spells.db",
       "module": "flatstream-share",
-      "type": "Item"
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
       "name": "spells_2024",
       "system": "dnd5e",
-      "label": "주문 24 (MySC)",
+      "label": "주문 24 (FSS)",
       "path": "./packs/spells_2024.db",
       "module": "flatstream-share",
-      "type": "Item"
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
       "name": "spells_supplement",
       "system": "dnd5e",
-      "label": "주문:서플 (MySC)",
+      "label": "주문: 서플 (FSS)",
       "path": "./packs/spells_supplement.db",
       "module": "flatstream-share",
-      "type": "Item"
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
       "name": "classes14",
       "system": "dnd5e",
-      "label": "클래스 14 (MySC)",
+      "label": "클래스 14 (FSS)",
       "path": "./packs/classes14.db",
       "module": "flatstream-share",
-      "type": "Item"
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
       "name": "classes24",
       "system": "dnd5e",
-      "label": "클래스 24(MySC)",
+      "label": "클래스 24(FSS)",
       "path": "./packs/classes24.db",
       "module": "flatstream-share",
-      "type": "Item"
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
       "name": "subclasses14",
       "system": "dnd5e",
-      "label": "서브클래스 14 (MySC)",
+      "label": "서브클래스 14 (FSS)",
       "path": "./packs/subclasses14.db",
       "module": "flatstream-share",
-      "type": "Item"
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
       "name": "subclasses24",
       "system": "dnd5e",
-      "label": "서브클래스 24 (MySC)",
+      "label": "서브클래스 24 (FSS)",
       "path": "./packs/subclasses24.db",
       "module": "flatstream-share",
-      "type": "Item"
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
       "name": "class_features14",
       "system": "dnd5e",
-      "label": "클래스 특성 14 (MySC)",
+      "label": "클래스 특성 14 (FSS)",
       "path": "./packs/class_features14.db",
       "module": "flatstream-share",
-      "type": "Item"
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
       "name": "class_features24",
       "system": "dnd5e",
-      "label": "클래스 특성 24 (MySC)",
+      "label": "클래스 특성 24 (FSS)",
       "path": "./packs/class_features24.db",
       "module": "flatstream-share",
-      "type": "Item"
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
       "name": "subclass_features14",
       "system": "dnd5e",
-      "label": "서브클래스 특성 14 (MySC)",
+      "label": "서브클래스 특성 14 (FSS)",
       "path": "./packs/subclass_features14.db",
       "module": "flatstream-share",
-      "type": "Item"
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
       "name": "subclass_features24",
       "system": "dnd5e",
-      "label": "서브클래스 특성 24 (MySC)",
+      "label": "서브클래스 특성 24 (FSS)",
       "path": "./packs/subclass_features24.db",
       "module": "flatstream-share",
-      "type": "Item"
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
       "name": "backgrounds14",
       "system": "dnd5e",
-      "label": "배경 14 (MySC)",
+      "label": "배경 14 (FSS)",
       "path": "./packs/backgrounds14.db",
       "module": "flatstream-share",
-      "type": "Item"
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
       "name": "backgrounds24",
       "system": "dnd5e",
-      "label": "배경 24 (MySC)",
+      "label": "배경 24 (FSS)",
       "path": "./packs/backgrounds24.db",
       "module": "flatstream-share",
-      "type": "Item"
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
       "name": "races14",
       "system": "dnd5e",
-      "label": "종족 14 (MySC)",
+      "label": "종족 14 (FSS)",
       "path": "./packs/races14.db",
       "module": "flatstream-share",
-      "type": "Item"
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
       "name": "races24",
       "system": "dnd5e",
-      "label": "종족 24(MySC)",
+      "label": "종족 24(FSS)",
       "path": "./packs/races24.db",
       "module": "flatstream-share",
-      "type": "Item"
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
       "name": "races_features14",
       "system": "dnd5e",
-      "label": "종족 특성 14 (MySC)",
+      "label": "종족 특성 14 (FSS)",
       "path": "./packs/races_features14.db",
       "module": "flatstream-share",
-      "type": "Item"
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
       "name": "races_features24",
       "system": "dnd5e",
-      "label": "종족 특성 24 (MySC)",
+      "label": "종족 특성 24 (FSS)",
       "path": "./packs/races_features24.db",
       "module": "flatstream-share",
-      "type": "Item"
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
       "name": "feats14",
       "system": "dnd5e",
-      "label": "재주 14(MySC)",
+      "label": "재주 14(FSS)",
       "path": "./packs/feats14.db",
       "module": "flatstream-share",
-      "type": "Item"
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
       "name": "feats24",
       "system": "dnd5e",
-      "label": "재주 24 (MySC)",
+      "label": "재주 24 (FSS)",
       "path": "./packs/feats24.db",
       "module": "flatstream-share",
-      "type": "Item"
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
       "name": "scenes",
       "system": "dnd5e",
-      "label": "장면 (MySC)",
+      "label": "장면 (FSS)",
       "path": "./packs/scenes.db",
       "module": "flatstream-share",
-      "type": "Scene"
+      "type": "Scene",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
       "name": "JournalEntries",
       "system": "dnd5e",
-      "label": "저널 (MySC)",
+      "label": "저널 (FSS)",
       "path": "./packs/journalentry.db",
       "module": "flatstream-share",
-      "type": "JournalEntry"
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
       "name": "macros",
       "system": "dnd5e",
-      "label": "매크로 (MySC)",
+      "label": "매크로 (FSS)",
       "path": "./packs/macro.db",
       "module": "flatstream-share",
-      "type": "Macro"
+      "type": "Macro",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
       "name": "rolltables",
       "system": "dnd5e",
-      "label": "굴림표 (MySC)",
+      "label": "굴림표 (FSS)",
       "path": "./packs/rolltables.db",
       "module": "flatstream-share",
-      "type": "RollTable"
+      "type": "RollTable",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "playlist",
+      "system": "dnd5e",
+      "label": "플레이리스트 (FSS)",
+      "path": "./packs/playlist.db",
+      "module": "flatstream-share",
+      "type": "Playlist",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
     }
   ],
   "packFolders": [
@@ -284,7 +432,8 @@
           "packs": [
             "spells",
             "spells_2024",
-            "spells_supplement"
+            "spells_supplement",
+            "Adv_spells"
           ],
           "color": null,
           "folders": []
@@ -304,7 +453,8 @@
           "packs": [
             "summon",
             "monster14",
-            "monster24"
+            "monster24",
+            "actors"
           ],
           "color": null,
           "folders": []
@@ -314,9 +464,11 @@
           "sorting": "a",
           "packs": [
             "adventures",
-            "journalentry",
+            "JournalEntries",
             "rolltables",
-            "scenes"
+            "scenes",
+            "macros",
+            "playlist"
           ],
           "color": null,
           "folders": []
