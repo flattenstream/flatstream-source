@@ -1,8 +1,15 @@
-2025/08/08-18:59:50.204291 700009ed0000 Recovering log #156
-2025/08/08-18:59:50.205579 700009ed0000 Delete type=3 #155
-2025/08/08-18:59:50.205717 700009ed0000 Delete type=0 #156
-2025/08/08-19:17:46.853214 70000ef71000 Level-0 table #160: started
-2025/08/08-19:17:46.853247 70000ef71000 Level-0 table #160: 0 bytes OK
-2025/08/08-19:17:46.853425 70000ef71000 Delete type=0 #158
-2025/08/08-19:17:46.853803 70000ef71000 Manual compaction at level-0 from '!folders!1G8EUk3BVFHGTKVg' @ 72057594037927935 : 1 .. '!items.effects!zmZFsESFz5bWBvqW.tZnX0HUAKffd7Oxf' @ 0 : 0; will stop at (end)
-2025/08/08-19:17:46.853838 70000ef71000 Manual compaction at level-1 from '!folders!1G8EUk3BVFHGTKVg' @ 72057594037927935 : 1 .. '!items.effects!zmZFsESFz5bWBvqW.tZnX0HUAKffd7Oxf' @ 0 : 0; will stop at (end)
+2025/08/08-19:39:38.223340 700014406000 Recovering log #163
+2025/08/08-19:39:38.224442 700014406000 Delete type=3 #161
+2025/08/08-19:39:38.224521 700014406000 Delete type=0 #163
+2025/08/09-14:24:13.169386 70000db5c000 Level-0 table #168: started
+2025/08/09-14:24:13.173185 70000db5c000 Level-0 table #168: 232148 bytes OK
+2025/08/09-14:24:13.173998 70000db5c000 Delete type=0 #166
+2025/08/09-14:24:13.182371 70000db5c000 Manual compaction at level-0 from '!folders!1G8EUk3BVFHGTKVg' @ 72057594037927935 : 1 .. '!items.effects!zmZFsESFz5bWBvqW.tZnX0HUAKffd7Oxf' @ 0 : 0; will stop at (end)
+2025/08/09-14:24:13.182444 70000db5c000 Manual compaction at level-1 from '!folders!1G8EUk3BVFHGTKVg' @ 72057594037927935 : 1 .. '!items.effects!zmZFsESFz5bWBvqW.tZnX0HUAKffd7Oxf' @ 0 : 0; will stop at '!items.effects!mA96wvbDB8dmEW6Z.tUyuyTQGmpUqMcFe' @ 856 : 1
+2025/08/09-14:24:13.182454 70000db5c000 Compacting 1@1 + 1@2 files
+2025/08/09-14:24:13.188493 70000db5c000 Generated table #169@1: 250 keys, 314780 bytes
+2025/08/09-14:24:13.188523 70000db5c000 Compacted 1@1 + 1@2 files => 314780 bytes
+2025/08/09-14:24:13.188705 70000db5c000 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/08/09-14:24:13.188811 70000db5c000 Delete type=2 #168
+2025/08/09-14:24:13.189096 70000db5c000 Delete type=2 #136
+2025/08/09-14:24:13.200125 70000db5c000 Manual compaction at level-1 from '!items.effects!mA96wvbDB8dmEW6Z.tUyuyTQGmpUqMcFe' @ 856 : 1 .. '!items.effects!zmZFsESFz5bWBvqW.tZnX0HUAKffd7Oxf' @ 0 : 0; will stop at (end)
