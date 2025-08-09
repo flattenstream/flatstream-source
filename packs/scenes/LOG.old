@@ -1,8 +1,7 @@
-2025/08/08-18:59:50.281847 700009ed0000 Recovering log #3693
-2025/08/08-18:59:50.282941 700009ed0000 Delete type=0 #3693
-2025/08/08-18:59:50.283015 700009ed0000 Delete type=3 #3692
-2025/08/08-19:17:46.898233 70000ef71000 Level-0 table #3697: started
-2025/08/08-19:17:46.898683 70000ef71000 Level-0 table #3697: 7536 bytes OK
-2025/08/08-19:17:46.898871 70000ef71000 Delete type=0 #3695
-2025/08/08-19:17:46.899340 70000ef71000 Manual compaction at level-0 from '!scenes.drawings!175knYOLwoQU9mqw.4fnUBfcETMgoWcul' @ 72057594037927935 : 1 .. '!scenes.walls!zUyINfz4nKIBM4gs.zvfyF8ZG1ly8XmxM' @ 0 : 0; will stop at (end)
-2025/08/08-19:17:46.900151 70000ef71000 Manual compaction at level-1 from '!scenes.drawings!175knYOLwoQU9mqw.4fnUBfcETMgoWcul' @ 72057594037927935 : 1 .. '!scenes.walls!zUyINfz4nKIBM4gs.zvfyF8ZG1ly8XmxM' @ 0 : 0; will stop at (end)
+2025/08/08-19:39:38.286957 700013c03000 Recovering log #3700
+2025/08/08-19:39:38.287771 700013c03000 Delete type=3 #3698
+2025/08/08-19:39:38.287836 700013c03000 Delete type=0 #3700
+2025/08/09-14:24:13.291521 70000db5c000 Level-0 table #3705: started
+2025/08/09-14:24:13.291819 70000db5c000 Level-0 table #3705: 0 bytes OK
+2025/08/09-14:24:13.292381 70000db5c000 Delete type=0 #3703
+2025/08/09-14:24:13.294234 70000db5c000 Manual compaction at level-0 from 'undefined' @ 72057594037927935 : 1 .. 'undefined' @ 0 : 0; will stop at (end)
