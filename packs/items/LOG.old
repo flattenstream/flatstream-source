@@ -1,15 +1,8 @@
-2025/08/08-18:59:50.139639 70000a6d3000 Recovering log #3734
-2025/08/08-18:59:50.140559 70000a6d3000 Delete type=0 #3734
-2025/08/08-18:59:50.140627 70000a6d3000 Delete type=3 #3733
-2025/08/08-19:17:46.838364 70000ef71000 Level-0 table #3738: started
-2025/08/08-19:17:46.839455 70000ef71000 Level-0 table #3738: 48182 bytes OK
-2025/08/08-19:17:46.839665 70000ef71000 Delete type=0 #3736
-2025/08/08-19:17:46.840009 70000ef71000 Manual compaction at level-0 from '!folders!UEvYJ5GWT0rcM2Pb' @ 72057594037927935 : 1 .. '!items.effects!oRpx6L54n3RiviXi.CONvjiOcU9iO3L0z' @ 0 : 0; will stop at (end)
-2025/08/08-19:17:46.840052 70000ef71000 Manual compaction at level-1 from '!folders!UEvYJ5GWT0rcM2Pb' @ 72057594037927935 : 1 .. '!items.effects!oRpx6L54n3RiviXi.CONvjiOcU9iO3L0z' @ 0 : 0; will stop at '!items!zuURv6t12Q000L8v' @ 1773 : 1
-2025/08/08-19:17:46.840061 70000ef71000 Compacting 1@1 + 1@2 files
-2025/08/08-19:17:46.843050 70000ef71000 Generated table #3739@1: 133 keys, 130353 bytes
-2025/08/08-19:17:46.843068 70000ef71000 Compacted 1@1 + 1@2 files => 130353 bytes
-2025/08/08-19:17:46.843209 70000ef71000 compacted to: files[ 0 0 1 0 0 0 0 ]
-2025/08/08-19:17:46.843277 70000ef71000 Delete type=2 #3714
-2025/08/08-19:17:46.843477 70000ef71000 Delete type=2 #3738
-2025/08/08-19:17:46.844851 70000ef71000 Manual compaction at level-1 from '!items!zuURv6t12Q000L8v' @ 1773 : 1 .. '!items.effects!oRpx6L54n3RiviXi.CONvjiOcU9iO3L0z' @ 0 : 0; will stop at (end)
+2025/08/08-19:39:38.159129 700014406000 Recovering log #3742
+2025/08/08-19:39:38.160066 700014406000 Delete type=0 #3742
+2025/08/08-19:39:38.160142 700014406000 Delete type=3 #3740
+2025/08/09-14:24:13.035776 70000db5c000 Level-0 table #3747: started
+2025/08/09-14:24:13.036093 70000db5c000 Level-0 table #3747: 0 bytes OK
+2025/08/09-14:24:13.036488 70000db5c000 Delete type=0 #3745
+2025/08/09-14:24:13.038251 70000db5c000 Manual compaction at level-0 from '!folders!UEvYJ5GWT0rcM2Pb' @ 72057594037927935 : 1 .. '!items.effects!oRpx6L54n3RiviXi.CONvjiOcU9iO3L0z' @ 0 : 0; will stop at (end)
+2025/08/09-14:24:13.038306 70000db5c000 Manual compaction at level-1 from '!folders!UEvYJ5GWT0rcM2Pb' @ 72057594037927935 : 1 .. '!items.effects!oRpx6L54n3RiviXi.CONvjiOcU9iO3L0z' @ 0 : 0; will stop at (end)
