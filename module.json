@@ -392,6 +392,7 @@
   "packFolders": [
     {
       "name": "평면 공유 컴펜디엄",
+      "color": "#a97b00",
       "sorting": "a",
       "folders": [
         {
@@ -407,7 +408,6 @@
             "subclass_features14",
             "subclasses14"
           ],
-          "color": null,
           "folders": []
         },
         {
@@ -423,7 +423,6 @@
             "subclass_features24",
             "subclasses24"
           ],
-          "color": null,
           "folders": []
         },
         {
@@ -435,7 +434,6 @@
             "spells_supplement",
             "spells_other"
           ],
-          "color": null,
           "folders": []
         },
         {
@@ -444,7 +442,6 @@
           "packs": [
             "items"
           ],
-          "color": null,
           "folders": []
         },
         {
@@ -456,7 +453,6 @@
             "monster24",
             "actors"
           ],
-          "color": null,
           "folders": []
         },
         {
@@ -470,11 +466,9 @@
             "macros",
             "playlist"
           ],
-          "color": null,
           "folders": []
         }
       ],
-      "color": null,
       "packs": []
     }
   ],
