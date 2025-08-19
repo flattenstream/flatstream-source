@@ -1,8 +1,15 @@
-2025/08/09-14:24:28.489661 700013400000 Recovering log #240
-2025/08/09-14:24:28.490510 700013400000 Delete type=0 #240
-2025/08/09-14:24:28.490578 700013400000 Delete type=3 #238
-2025/08/09-23:46:09.879705 70000db5c000 Level-0 table #245: started
-2025/08/09-23:46:09.879911 70000db5c000 Level-0 table #245: 0 bytes OK
-2025/08/09-23:46:09.880351 70000db5c000 Delete type=0 #243
-2025/08/09-23:46:09.880500 70000db5c000 Manual compaction at level-0 from '!actors!0Oke7KKGHcZEPVMT' @ 72057594037927935 : 1 .. '!actors.items.effects!yh4xKcWc5e6ux5R8.tjVstpR4BdF3v9H2.LQKKExkhgR6rZcOw' @ 0 : 0; will stop at (end)
-2025/08/09-23:46:09.880539 70000db5c000 Manual compaction at level-1 from '!actors!0Oke7KKGHcZEPVMT' @ 72057594037927935 : 1 .. '!actors.items.effects!yh4xKcWc5e6ux5R8.tjVstpR4BdF3v9H2.LQKKExkhgR6rZcOw' @ 0 : 0; will stop at (end)
+2025/08/19-08:54:14.477385 700015607000 Recovering log #288
+2025/08/19-08:54:14.478333 700015607000 Delete type=3 #286
+2025/08/19-08:54:14.478447 700015607000 Delete type=0 #288
+2025/08/19-15:55:34.417592 70000f560000 Level-0 table #294: started
+2025/08/19-15:55:34.425116 70000f560000 Level-0 table #294: 274351 bytes OK
+2025/08/19-15:55:34.425767 70000f560000 Delete type=0 #292
+2025/08/19-15:55:34.428278 70000f560000 Manual compaction at level-0 from '!actors!0Oke7KKGHcZEPVMT' @ 72057594037927935 : 1 .. '!folders!w8TpiTG7cgcnaTPJ' @ 0 : 0; will stop at (end)
+2025/08/19-15:55:34.428417 70000f560000 Manual compaction at level-1 from '!actors!0Oke7KKGHcZEPVMT' @ 72057594037927935 : 1 .. '!folders!w8TpiTG7cgcnaTPJ' @ 0 : 0; will stop at '!folders!MxEgBsiIesYj5s3b' @ 2763 : 1
+2025/08/19-15:55:34.428441 70000f560000 Compacting 1@1 + 1@2 files
+2025/08/19-15:55:34.463596 70000f560000 Generated table #295@1: 1111 keys, 1318131 bytes
+2025/08/19-15:55:34.463636 70000f560000 Compacted 1@1 + 1@2 files => 1318131 bytes
+2025/08/19-15:55:34.463919 70000f560000 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/08/19-15:55:34.464094 70000f560000 Delete type=2 #294
+2025/08/19-15:55:34.464563 70000f560000 Delete type=2 #290
+2025/08/19-15:55:34.470394 70000f560000 Manual compaction at level-1 from '!folders!MxEgBsiIesYj5s3b' @ 2763 : 1 .. '!folders!w8TpiTG7cgcnaTPJ' @ 0 : 0; will stop at (end)
