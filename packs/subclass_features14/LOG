@@ -1,8 +1,4 @@
-2025/08/09-14:24:28.564859 700013c03000 Recovering log #3783
-2025/08/09-14:24:28.565876 700013c03000 Delete type=3 #3781
-2025/08/09-14:24:28.565998 700013c03000 Delete type=0 #3783
-2025/08/09-23:46:09.936590 70000db5c000 Level-0 table #3788: started
-2025/08/09-23:46:09.936857 70000db5c000 Level-0 table #3788: 0 bytes OK
-2025/08/09-23:46:09.937470 70000db5c000 Delete type=0 #3786
-2025/08/09-23:46:09.940394 70000db5c000 Manual compaction at level-0 from '!folders!0GF9jLP3QiHuuXJp' @ 72057594037927935 : 1 .. '!items.effects!yHQmpxNbylTc3tXI.5U2IY2n0s9mure55' @ 0 : 0; will stop at (end)
-2025/08/09-23:46:09.940510 70000db5c000 Manual compaction at level-1 from '!folders!0GF9jLP3QiHuuXJp' @ 72057594037927935 : 1 .. '!items.effects!yHQmpxNbylTc3tXI.5U2IY2n0s9mure55' @ 0 : 0; will stop at (end)
+2025/08/27-13:47:03.399196 70000ffbb000 Recovering log #3887
+2025/08/27-13:47:03.400971 70000ffbb000 Delete type=3 #3885
+2025/08/27-13:47:03.401073 70000ffbb000 Delete type=0 #3887
+2025/08/27-13:59:18.493365 70001db1e000 Moved #3886 to level-1 225672 bytes OK: files[ 0 1 1 0 0 0 0 ]
